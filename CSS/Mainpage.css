@@ -2,3 +2,6 @@
     margin: 15px;
     text-align: center;
 }
+body {
+    background-image: url('/Assests/bg-MaisonKrapuul.jpg');
+}
