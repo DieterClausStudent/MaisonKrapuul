@@ -1,27 +1,22 @@
-body {
-    margin: 0;
-
-    font-family: "Work sans", sans-serif;
-    font-weight: 400;
-
-
+@font-face {
+    font-family: myFont;
+    src: url('/Fonts/JosefinSans-VariableFont_wght.ttf');
 }
-
+body {
+    font-family: myFont;
+}
 .container {
     width: 80%;
     margin: 0 auto;
 }
 .logo {
-    width: 300px;
+    width: 100px;
     height: 100px;
     float: left;
     padding: 10px 0;
 
 }
-header {
 
-    background-image: url("/test.jpg");
-}
 header::after {
     content: '';
     display: table;
@@ -45,20 +40,20 @@ nav li{
 }
 
 nav a {
-    color: black;
+    color: #446428;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: orange;
+    color: #446428;
 }
 nav a::before {
     content: '';
     display: block;
     height: 5px;
 
-    background-color: orange;
+    background-color: #446428;
     position: absolute;
     top: 0;
     width: 0;
@@ -67,10 +62,9 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-
-
-.jumbotron {
-    background-image: url('/test.jpg');
-    width: 200px;
-    height: 200px;
+header {
+    background-color: #f9c41b;
+    border-bottom: 2px solid #446428;
 }
+
+
